@@ -44,30 +44,34 @@ font-family: 'Ubuntu';
   color:red;
 }
 .site-content{
-  background-image: url("../images/pexels-christina-morillo-1181344.jpg");
-  background-attachment: fixed;
-  height:800px;
+  /*background-image: url("../images/pexels-christina-morillo-1181344.jpg");*/
+  background-color: green;
+ background-attachment: fixed;
+  height:300px;
   background-size: cover;
+}
+.flex-column{
+  margin-left: 40px;
 }
 .site-title, .site-desc{
   font-family: 'Righteous';
  color:black;
 }
 .site-title{
-  margin-top: 30%;
-  margin-bottom: 6%;
+  margin-top: 60%;
+  margin-left:20px;
+
   font-size: 50px;
-  color:#4CBB17;
+  color:white;/*#4CBB17;*/
 }
 .site-desc{
-  font-size: 14px;
-
-  font-size: 40px;
+    font-size: 40px;
 }
 
 .flex-column{
   color:black;
 }
+/*section*/
 
 
 
@@ -78,9 +82,7 @@ font-family: 'Ubuntu';
 
 
 
-
-
-
+/*footer*/
 .main {
   max-height: 50px;
   background-color: #292c2f;

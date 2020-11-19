@@ -44,10 +44,13 @@ font-family: 'Ubuntu';
   color:red;
 }
 .site-content{
-  background-image: url("../images/pexels-christina-morillo-1181344.jpg");
-  background-attachment: fixed;
-  height:800px;
-  background-size: cover;
+ background-image: url("../images/pexels-marily-torres-776615.jpg");
+
+  height:600px;
+background-size: cover;
+/*background:url('/img/banners/career-banner.jpg')no-repeat;*/
+background-size:cover;
+	background-position:center;
 }
 .site-title, .site-desc{
   font-family: 'Righteous';
@@ -68,6 +71,44 @@ font-family: 'Ubuntu';
 .flex-column{
   color:black;
 }
+/*section1*/
+.section-2 .heading-1{
+  margin-top: 6%;
+  margin-bottom: 3%;
+  font-family: 'Righteous';
+  width: 80%;
+  color:#E32B47;
+}
+.section-2 h3{
+  padding-bottom: 30px;
+}
+.section-2 .para{
+  width: 80%;
+  font-family: 'Ubuntu';
+  color: whitesmoke;
+  margin-bottom: 2%;
+  font-size: 18px;
+}
+.section-2 .btn{
+  margin-bottom: 5%;
+  margin-top: 3%;
+  margin-left: 60px;
+  font-size: 20px;
+  width:22%;
+  border-radius: 50px;
+   color: white;
+  padding: 2% 5%;
+}
+.anchor{
+  color: green;
+}
+.anchor:hover{
+  text-decoration: none;
+  color: red;
+}
+.section-2 h4{
+  margin-left: 40px;
+}
 
 
 
@@ -77,10 +118,7 @@ font-family: 'Ubuntu';
 
 
 
-
-
-
-
+/*footer*/
 .main {
   max-height: 50px;
   background-color: #292c2f;

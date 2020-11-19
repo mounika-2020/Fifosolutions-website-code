@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
 body{
   padding: 0%;
   margin:0%;
@@ -8,7 +9,6 @@ body{
   background-color: white;
 }
 .navbar-brand{
-/*  font-family: 'Pacifico';*/
 font-family: 'Ubuntu';
   font-size: 35px;
   color:lightcoral !important;
@@ -39,51 +39,79 @@ font-family: 'Ubuntu';
   color:white;
   background-color:#4CBB17;/* #00E8E8;*/
 }
-.text{
-  text-decoration: none;
-  color:red;
+/*carousel section*/
+#carouselExampleIndicators{
+	position: relative;
+	height: 90vh;
+	width: 100%;
 }
-.site-content{
-  background-image: url("../images/sebastian-herrmann-O2o1hzDA7iE-unsplash.jpg");
-  /*background-attachment: fixed;*/
-  height:800px;
-  background-size: cover;
+#carouselExampleIndicators .carousel-inner{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #000;
 }
-.site-title, .site-desc{
-  font-family: 'Righteous';
- color:black;
+#carouselExampleIndicators .carousel-inner:before{
+	position: absolute;
+	content: '';
+	background: rgba(0, 0, 0, 0.45);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
 }
-.site-title{
-  margin-top: 30%;
-  margin-bottom: 6%;
-  font-size: 50px;
-  color:#4CBB17;
+#carouselExampleIndicators .carousel-inner .carousel-item{
+	position: relative;
+	height: 100%;
+	width:100%;
+	background: url(../images/sebastian-herrmann-O2o1hzDA7iE-unsplash.jpg);/*'https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');*/
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
 }
-.site-desc{
-  font-size: 14px;
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+	background: url(../images/pexels-oleg-magni-2058130.jpg);/*'https://images.pexels.com/photos/256937/pexels-photo-256937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');*/
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+	background: url(../images/pexels-marily-torres-776615.jpg);/*'https://images.pexels.com/photos/1064162/pexels-photo-1064162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');*/
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
 
-  font-size: 40px;
+#carouselExampleIndicators .carousel-inner .carousel-item .info{
+	position: absolute;
+	top: 50%;
+  right: 50px;
+	transform: translateY(-50%);
+	height: auto;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
 }
+#carouselExampleIndicators .carousel-inner .carousel-item h1{
+	height: auto;
+	color: #fff;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
 
-.flex-column{
-  color:black;
+	font-size: 4.5em;
+	font-weight: 750;
 }
-
-/*------*/
-
-/*div.transbox {
-  margin:30px;
-  background-color: #ffffff;*/
-  /*border: 1px solid black;*/
-  /*opacity: 0.6;
+#carouselExampleIndicators .carousel-inner .carousel-item p{
+	height: auto;
+	color: #ccc;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 500;
 }
-
-div.transbox p {
-  margin: 15%;
-  font-weight: bold;
-  color: #000000;
-}*/
-
 /*section1*/
 .icon{
   font-size: 140px;
@@ -121,7 +149,7 @@ div.transbox p {
 .card-text:hover{
   color:#4cbb17;
 }
-/*section*/
+/*section-2*/
 
 .section-2 .container-fluid{
   background-image: url('../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg');
@@ -337,10 +365,6 @@ footer{
   font-weight: bold;
   margin-bottom: 30px;
 }
-.footer-distributed .footer-company-about{
-
-}
-
 .footer-distributed .footer-icons{
   margin-top: 25px;
 }
@@ -350,19 +374,15 @@ footer{
   width: 35px;
   height: 35px;
   cursor: pointer;
-  /*background-color:  #33383b;*/
   border-radius: 2px;
-
   font-size: 20px;
   color: #ffffff;
   text-align: center;
   line-height: 35px;
-
   margin-right: 3px;
   margin-bottom: 5px;
 }
 .address{
-
   line-height: 20px;
   color:  #92999f;
   font-size: 19px;

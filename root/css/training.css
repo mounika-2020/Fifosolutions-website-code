@@ -93,13 +93,16 @@ font-family: 'Ubuntu';
 }
 .section-2 .btn{
   margin-bottom: 5%;
-  width:25%;
-
+  margin-top: 3%;
+  width:23%;
+   color: white;
   padding: 2% 5%;
 }
-
+/*section2*/
 .benifits{
   font-size: 35px;
+  padding-top: 50px;
+  padding-left: 40px;
 }
 .s2{
   background-color: #f8f9fa;
