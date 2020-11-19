@@ -44,9 +44,9 @@ font-family: 'Ubuntu';
   color:red;
 }
 .site-content{
-  background-image: url("../images/pexels-christina-morillo-1181344.jpg");
+
   background-attachment: fixed;
-  height:800px;
+  height:300px;
   background-size: cover;
 }
 .site-title, .site-desc{
@@ -57,7 +57,7 @@ font-family: 'Ubuntu';
   margin-top: 30%;
   margin-bottom: 6%;
   font-size: 50px;
-  color:#4CBB17;
+  color:white;
 }
 .site-desc{
   font-size: 14px;
@@ -68,6 +68,21 @@ font-family: 'Ubuntu';
 .flex-column{
   color:black;
 }
+/*section1*/
+.section-1 .heading-1{
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-family: 'Righteous';
+  width: 80%;
+
+}
+.section-1 .para{
+  width: 80%;
+  font-family: 'Ubuntu';
+  color: whitesmoke;
+  margin-bottom: 2%;
+  font-size: 18px;
+}
 
 
 
@@ -78,9 +93,7 @@ font-family: 'Ubuntu';
 
 
 
-
-
-
+/*footer*/
 .main {
   max-height: 50px;
   background-color: #292c2f;
