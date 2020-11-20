@@ -68,6 +68,130 @@ font-family: 'Ubuntu';
 .flex-column{
   color:black;
 }
+/*section*/
+section{
+  background:url("../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg") no-repeat center fixed;
+    background-size: cover;
+    background-size: 1000px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  font-family: sans-serif;
+  font-style: italic;
+
+  position:absolute;
+
+  padding:150px 100px 100px;
+  font-family: "georgian",sans-serif;
+
+  width: 100%;
+
+  background-position: center;
+  background-size: 1900px;
+  min-height: 100vh;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+
+  background:url("../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg") no-repeat center fixed;
+
+}
+.login-form{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    padding: 15px;
+}
+  .form-box{
+    width: 400px;
+    height: 450px;
+    position: relative;
+    margin: 8% auto;
+    background: rgba(0,0,0,0.8);
+    padding: 50px;
+  box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  }
+  .input-group{
+    top:130px;
+    position: absolute;
+    width: 300px;
+    transition: .5s;
+  display: flex;
+  flex-direction: column;
+  }
+  h1{
+    color:white;
+    text-align: center;
+  }
+  .input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 200px;
+    border-left:12px;
+    border-top:0;
+    border-right:0;
+    border-bottom: 2px solid #999;
+    outline : none;
+  display: flex;
+  flex-direction: column;
+    background: transparent;
+  }
+  .submit-btn{
+    width: 110px;
+  height: 50px;
+    padding 20px 30px;
+    cursor: pointer;
+    display:block;
+    margin: auto;
+    background: rgba(10,20,10,0.7);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+  font-size: 16px;
+    color: #fff;
+    font-weight: 200px;
+    text-decoration: none;
+  }
+  .checkbox{
+    margin: 30px 10px 30px 0;
+  }
+  .reg{
+    margin: 30px 10px 30px 0;
+    color:white;
+  }
+  .reg:hover{
+    color: white;
+    text-decoration: none;
+  }
+  /*span{
+    color:#777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+  }*/
+  #login{
+    left: 50px;
+  }
+
+
+/*responsive*/
+@media(max-width: 500px){
+body{
+min-width: 100%;
+padding: 30px;
+}
+.form-box{
+min-width: 100%;
+}
+}
 
 
 
@@ -78,9 +202,7 @@ font-family: 'Ubuntu';
 
 
 
-
-
-
+/*footer*/
 .main {
   max-height: 50px;
   background-color: #292c2f;

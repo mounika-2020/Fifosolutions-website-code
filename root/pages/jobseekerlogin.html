@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Fifo home page</title>
+      <link rel="icon" href="../Favicon/favicon.ico">
       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -64,8 +65,36 @@
      </nav>
    </header>
   <main>
+  <!--section-->
+    <section class = "container-fluid login-form bg-dark">
 
+      <div class ="form-box bg-light">
+        <h1 class="text-dark">Job seeker login</h1>
+        <form method ="post" id="login" class="input-group" action="success.html" onsubmit= "return validation()">
+          <div >
+            <input type ="text" autocomplete="off" class ="input-field" id= "userid" placeholder="Enter username">
+          </div>
 
+          <div>
+            <input type ="password" autocomplete="off" class ="input-field" id="passwordid" placeholder="Enter Password">
+          </div>
+
+        <!--	<input type ="checkbox" class ="checkbox"> <span>Remember Password</span>-->
+         <a href="jobseekerreg.html" class ="reg text-dark">Not a member? Register now</a>
+          <button type="submit" class= "submit-btn">Log in</button>
+        </form>
+      </div>
+
+         <div class="div1">
+           <h4>Don't have fifosolutions.com account?</h4>
+                <p><a class="text-thm" href="empreg.html">Cleck Here</a> to Register as fifosolutions Recruiter.</p>
+                <p><a class="text-thm" href="jobseekerreg.html">Cleck Here</a> to Register as Job Seeker.</p>
+         </div>
+
+      <script src="../js/jobseekerlogin.js" charset="utf-8"></script>
+    </section>
+
+<!--footer-->
     <footer class="footer-distributed">
         <div class="footer-left ">
           <h2>Address</h2>
