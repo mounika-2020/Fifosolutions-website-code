@@ -23,7 +23,7 @@ font-family: 'Ubuntu';
   color:#00E8E8 !important;
 }
 .active .nav-link{
-  color:#00E8E8 !important;
+  color:blue !important;
 }
 .menu-right-btn{
   padding: 13px 46px;

@@ -23,7 +23,7 @@ font-family: 'Ubuntu';
   color:#00E8E8 !important;
 }
 .active .nav-link{
-  color:#00E8E8 !important;
+  color:blue !important;
 }
 .menu-right-btn{
   padding: 13px 46px;
@@ -71,8 +71,58 @@ font-family: 'Ubuntu';
 .flex-column{
   color:black;
 }
+img{
+  height: 120px;
+  width: 160px;
+  color: orange;
+}
 /*section*/
 
+.icon{
+  font-size: 140px;
+  color: gray;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.section-1 .heading-1{
+  margin-top: 8%;
+  margin-bottom: 70px;
+
+}
+.section-1 .heading-2{
+  margin-bottom: 5%;
+  font-size: 39px;
+}
+.section-1 .para-1{
+  width: 30%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+.section-1 .card-text, .para-1{
+  color: rgba(0, 0, 0, 0.59);
+  margin-top: 10px;
+}
+.card-title{
+  float: center;
+}
+.image{
+  float: center;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.section-1{
+  margin-bottom: 8%;
+}
+.card{
+  width: 12rem;
+}
+.card-body a{
+  text-decoration: none;
+    color: rgba(0, 0, 0, 0.59);
+}
+.card-text:hover{
+  color:#4cbb17;
+}
 
 
 

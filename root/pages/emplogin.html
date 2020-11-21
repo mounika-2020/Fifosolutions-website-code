@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse"></div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent"><!--navbarMenu">-->
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
              <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item dropdown">
@@ -39,13 +39,14 @@
              <a href="clients.html" class="nav-link">Clients</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="jobseeker.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a href="jobseeker.html" class="nav-link">Job seeker</a>
+            <!--<a class="nav-link dropdown-toggle" href="jobseeker.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Job Seeker
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="jobseekerreg.html">Register</a>
               <a class="dropdown-item dropright" href="jobseekerlogin.html">Login</a>
-            </div>
+            </div>-->
           </li>
           <li class="nav-item">
              <a href="careers.html" class="nav-link">Carrers</a>
@@ -57,16 +58,56 @@
              <a href="contactus.html" class="nav-link">Contact us</a>
           </li>
         </ul>
-      <form class="form-inline my-2 my-lg-0" action="emplogin.html" method="post">
-          <button class="btn menu-right-btn border mx-4" type="submit">Employee login
+      <form class="form-inline my-2 my-lg-0" action="addconsultant.html" method="post">
+          <button class="btn menu-right-btn border mx-4" type="submit">Add consultant
             </button>
        </form>
       </div>
      </nav>
    </header>
   <main>
+    <section>
+      <div class="row col-lg-6 col-lg-12">
+         <div class="div1">
+           <h4>Don't have fifosolutions account?</h4>
+                <p><a class="text-thm" href="empreg.html">Cleck Here</a> to Register for training.</p>
+                <p><a class="text-thm" href="jobseekerreg.html">Cleck Here</a> to Register as Job Seeker.</p>
+         </div>
+
+         <div class="container col-lg-6 col-lg-12">
+           <h1 class="label">Employee login</h1>
+           <h2>Don't have an account?<a href="empreg.html">Register Now</a></h2>
+           <form class="login_form" action="success.html" method="post" name="form" onsubmit="return validated()">
+            <div class="row100">
+
+            <div class="font">Email</div>
+             <input autocomplete="off" type="email" name="em"  required="required" placeholder="Enter e-mail*" id="em">
+             <span  id="emailids" class="email_error" class="text-danger font-weight-bold"></span>
+
+           </div>
+            <div class="row100">
+
+             <div class="font font2">Password</div>
+             <input autocomplete="off" type="password" name="ps" required="required" placeholder="Enter password*" id="ps">
+             <span  id="password" class="pass_error" class="text-danger font-weight-bold"></span>
+
+            </div>
+            <div class="form-group form-check">
+                  <a href="">Forgot Password?</a>
+             </div>
+             <button type="submit" class="btn btn-log btn-block btn-thm">Login</button>
+
+           </form>
+          </div>
+        </div>
+          <script src="../js/emplogin.js" charset="utf-8"></script>
 
 
+    </section>
+
+</main>
+
+<!--footer-->
     <footer class="footer-distributed">
         <div class="footer-left ">
           <h2>Address</h2>

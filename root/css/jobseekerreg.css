@@ -23,7 +23,7 @@ font-family: 'Ubuntu';
   color:#00E8E8 !important;
 }
 .active .nav-link{
-  color:#00E8E8 !important;
+  color:blue !important;
 }
 .menu-right-btn{
   padding: 13px 46px;
@@ -44,7 +44,7 @@ font-family: 'Ubuntu';
   color:red;
 }
 .site-content{
-  background-image: url("../images/pexels-christina-morillo-1181344.jpg");
+  background-image: url("../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg");
   background-attachment: fixed;
   height:800px;
   background-size: cover;

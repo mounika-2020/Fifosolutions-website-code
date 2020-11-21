@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse"></div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent"><!--navbarMenu">-->
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
              <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item dropdown">
@@ -38,14 +38,15 @@
           <li class="nav-item">
              <a href="clients.html" class="nav-link">Clients</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="jobseeker.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <li class="nav-item active dropdown">
+              <a href="jobseeker.html" class="nav-link">Job seeker</a>
+          <!--  <a class="nav-link dropdown-toggle" href="jobseeker.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Job Seeker
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="jobseekerreg.html">Register</a>
               <a class="dropdown-item dropright" href="jobseekerlogin.html">Login</a>
-            </div>
+            </div>-->
           </li>
           <li class="nav-item">
              <a href="careers.html" class="nav-link">Carrers</a>
@@ -58,20 +59,116 @@
           </li>
         </ul>
       <form class="form-inline my-2 my-lg-0" action="emplogin.html" method="post">
-          <button class="btn menu-right-btn border mx-4" type="submit">Employee login
+          <button class="btn menu-right-btn border mx-4" type="submit">Employer login
             </button>
        </form>
       </div>
      </nav>
    </header>
   <main>
+    <div class="container-fluid p-0 background">
+      <div class="site-content bg-success">
+        <div class="d-flex justify-content-center">
+          <div class="d-flex flex-column">
+            <h1 class="site-title text-white">Get The Job That Fits Your Life.</h1>
+          <!--  <h1 class="site-title text-secondary">Turn your passion into<br> your career</h1>-->
+            <!--<p class="site-desc">The speed of change is throwing traditional business methods into question and disrupting the relevance of entire industries.</p>-->
+          </div>
 
+        </div>
 
+      </div>
+   </div>
+<!--section-->
+<div class="section-1">
+  <div class="container-fluid">
+    <div class="d-flex justify-content-start">
+      <div class="d-flex flex-column m-4">
+        <h1 class="heading-1 d-flex justify-content-start">Your dream job is waiting</h1>
+      <!--  <h3>What We Do..</h3>--><!--heading-1 para-->
+        <p class="para text-secondary">Fifosolutions is a leading provider of services and solutions to clients across the United States and globally. Many of these clients are large national and international organizations.
+          Organizations need individuals with cloud skills to help transform their business.
+           Our content is built by experts at fifo and updated regularly to keep pace with fifo updates, so you
+           can be sure you’re learning the latest and keeping your cloud skills fresh.Organizations need individuals with cloud skills to help transform their business.
+               Training and Certification helps you build and validate your cloud skills so you can get more out of the cloud.
+              Our content is built by experts at AWS and updated regularly to keep pace with updates, so you
+              can be sure you’re learning the latest and keeping your cloud skills fresh.<br><br>
+            We offer both digital and classroom training. Digital training allows you to learn online at your own pace. With classroom training,
+               learn best practices from an expert instructor. In addition to in-person classes, virtual training lets you take courses from anywhere. Whether you are just
+               starting out, building on existing IT skills, or sharpening your cloud knowledge, AWS Training and Certification can help you be more effective and do more in the cloud.</p>
+           <!--<h3>IT & other positions</h3>
+           <p class="para text-secondary">Are you ready to make a career change in a rapidly growing industry? We are always looking
+              for top talent to join the fifo team! New opportunities emerge each day with our IT Professional Services
+              and IT Solutions Division, as well as other departments.Develop and deploy your applications to the cloud with the help
+              of industry-leading consulting team. Whether you have a collection of existing applications or on the lookout
+               to implement your first, our team can architect the ultimate solution with the reliability and scaling capabilities of
+               new Cloud Native technologies.</p>-->
+               <h5><a class="anchor" href="jobseekerreg.html">Ready to get a job which fits your life? Just click here to Register as a job seeker..</a></h5>
+               <!--<form class="form-inline" action="trainingreg.html" method="post">
+                   <button class="btn bg-success" type="submit">Register now</button>
+                </form>
+             <h4><a class="anchor" href="">Click here to see the job opportunities.</a></h4>
+             <h1 class="heading-1">Benifits</h1>
+             <h3>We care about our consultants</h3>
+             <p class="para text-secondary">Fifosolutions is a leading provider of services and solutions to clients across the United States and globally. Many of these clients are large national and international organizations.
+               Organizations need individuals with cloud skills to help transform their business.</p>
+             <h3>Equal Employment Opportunity</h3>
+             <p class="para text-secondary">We will provide job, training  all terms and conditions of consultant without regard to their race, color, religion, national origin,
+             gender identity, age, protected veteran status, disability, or other protected categories under
+             the applicable law.</p>-->
+       </div>
+     </div>
+   </div>
+ </div>
+ <!--section3-->
+ <div class="section-2">
+   <div class="container-fluid">
+     <!--<div class="d-flex justify-content-end">
+       <div class="d-flex flex-column m-4">
+         <h1 class="s2 heading-1 text-success">We will provide you the best training</h1>
+         <p class="s2 para text-secondary"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+         <form class="form-inline" action="trainingreg.html" method="post">
+             <input type="button" value="Join with us" class="btn btn-danger">
+             <button class="btn bg-danger text-white" type="submit">Join with us</button>
+         </form>
+       </div>-->
+
+       <div class = "container-fluid login-form bg-dark">
+
+         <div class ="form-box bg-light">
+           <h1 class="text-dark">Login</h1>
+           <form method ="post" id="login" class="input-group" action="success.html" onsubmit= "return validation()">
+             <div >
+               <input type ="text" autocomplete="off" class ="input-field" id= "userid" placeholder="Enter username">
+             </div>
+
+             <div>
+               <input type ="password" autocomplete="off" class ="input-field" id="passwordid" placeholder="Enter Password">
+             </div>
+
+           <!--	<input type ="checkbox" class ="checkbox"> <span>Remember Password</span>-->
+            <a href="jobseekerreg.html" class ="reg text-dark">Not a member? <span>Register now</span></a>
+             <button type="submit" class= "submit-btn">Log in</button>
+           </form>
+         </div>
+
+            <!--<div class="div1">
+              <h4>Don't have fifosolutions.com account?</h4>
+                   <p><a class="text-thm" href="empreg.html">Cleck Here</a> to Register as fifosolutions Recruiter.</p>
+                   <p><a class="text-thm" href="jobseekerreg.html">Cleck Here</a> to Register as Job Seeker.</p>
+            </div>-->
+
+         <script src="../js/jobseekerlogin.js" charset="utf-8"></script>
+       </div>
+     </div>
+   </div>
+ </div>
+<!--footer-->
     <footer class="footer-distributed">
         <div class="footer-left ">
           <h2>Address</h2>
           <address class="address">
-           <span>21 Revolution Street<br>
+           <span class="foot">21 Revolution Street<br>
            vizag, Andhra pradesh,<br>
            India<br>
            +1 667 123456<br>

@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse"></div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent"><!--navbarMenu">-->
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
              <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item dropdown">
@@ -39,13 +39,14 @@
              <a href="clients.html" class="nav-link">Clients</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="jobseeker.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a href="jobseeker.html" class="nav-link">Job seeker</a>
+           <!--  <a class="nav-link dropdown-toggle" href="jobseeker.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Job Seeker
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="jobseekerreg.html">Register</a>
               <a class="dropdown-item dropright" href="jobseekerlogin.html">Login</a>
-            </div>
+            </div>-->
           </li>
           <li class="nav-item">
              <a href="careers.html" class="nav-link">Carrers</a>
@@ -58,15 +59,96 @@
           </li>
         </ul>
       <form class="form-inline my-2 my-lg-0" action="emplogin.html" method="post">
-          <button class="btn menu-right-btn border mx-4" type="submit">Employee login
+          <button class="btn menu-right-btn border mx-4" type="submit">Employer login
             </button>
        </form>
       </div>
      </nav>
    </header>
   <main>
+    <section>
+      <div class="ex">
+      <h1>Add consultants</h1>
+      <div class="reg">
+        <form id="reg" action="success.html" method="post" onsubmit="return validation()">
+          <h2>Personal details</h2>
+          <div class="loc">
+            <label>First name:</label><br>
+            <input type="text" name="name" placeholder="First name" class="name" id="fuser"><br><br>
+            <span id="usernamef" class="text-danger font-weight-bold"></span>
+          </div>
+          <div class="loc">
+            <label>Last name:</label><br>
+            <input type="text" name="name" placeholder="Last name" class="name" id="luser"><br><br>
+            <span id="usernamel" class="text-danger font-weight-bold"></span>
+         </div>
+        <div class="loc">
+          <label>Email:</label><br>
+          <input type="email" name="email" placeholder="Email" class="name" id="email"><br><br>
+          <span id="emailids" class="text-danger font-weight-bold"></span>
+        </div>
 
+          <div class="loc">
+          <label>Mobile number:</label><br>
+          <input type="number" name="mobile" placeholder="mobile number" class="name" id="mobileno"><br><br>
+          <span id="mobiles" class="text-danger font-weight-bold"></span>
+          </div>
+          <div class="loc">
+          <label>Current location:</label><br>
+          <input type="text" name="location" placeholder="Current location" class="name" id="currentloc"><br><br>
+          <span id="locationerr" class="text-danger font-weight-bold"></span>
+          </div>
+          <div class="loc">
+          <label>Date of birth:</label><br>
+          <input type="date"  name="date" class="name" id="name"><br><br>
 
+          </div>
+          <h2>Profession</h2>
+          <div class="loc">
+          <label>Job title:</label><br>
+          <input type="text" name="title" placeholder="Job title" class="name" id="jobt"><br><br>
+          <span id="joberr" class="text-danger font-weight-bold"></span>
+          </div>
+          <div class="loc">
+          <label>Experience:</label><br>
+          <input type="number" name="experience" placeholder="Experience" class="name" id="exp"><br><br>
+          <span id="experr" class="text-danger font-weight-bold"></span>
+          </div>
+          <div class="loc">
+                 <label>Resume:</label><br>
+                <input type="file" name="resume"  id="resume" accept=".pdf" placeholder="Resume" class="name" autocomplete="off"><br>
+                <span id="resumes" class="text-danger font-weight-bold"></span>
+          </div>
+          <div class="loc">
+          <label>Desired salary:</label><br>
+          <input type="number" name="salary" placeholder="Enter salary" class="name" id="sal"><br><br>
+          <span id="salaryerr" class="text-danger font-weight-bold"></span>
+          </div>
+          <h2>Ideal job</h2>
+          <div class="loc">
+          <label>Employment type:</label><br>
+          <input type="text" name="employment" placeholder="Enter employment type" class="name" id="emptype"><br><br>
+          <span id="emptypeerr" class="text-danger font-weight-bold"></span>
+          </div>
+          <div class="loc">
+          <label>Willing to relocate:</label><br>
+          <input type="text" name="relocate" placeholder="Willing to relocate" class="name" id="reloc"><br><br>
+          <span id="relocateerr" class="text-danger font-weight-bold"></span>
+          </div>
+          <div class="loc">
+          <label>Visa status:</label><br>
+          <input type="text" name="visa" placeholder="Enter visa status" class="name" id="visas"><br><br>
+          <span id="visaerr" class="text-danger font-weight-bold"></span>
+          </div>
+
+          <button type="submit" id="sub">Update</button>
+        </form>
+
+      </div>
+      </div>
+      <script src="../js/addconsultant.js" charset="utf-8"></script>
+    </section>
+<!--footer-->
     <footer class="footer-distributed">
         <div class="footer-left ">
           <h2>Address</h2>

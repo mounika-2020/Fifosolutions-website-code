@@ -28,7 +28,7 @@ font-family: 'Ubuntu';
 
 }
 .active .nav-link{
-  color:#00E8E8 !important;
+  color:blue !important;
 }
 .dropdown:hover>.dropdown-menu{
   display:block;
@@ -52,18 +52,21 @@ font-family: 'Ubuntu';
   color:red;
 }
 .site-content{
-  background-image: url("../images/sebastian-herrmann-O2o1hzDA7iE-unsplash.jpg");
+  /*background-image: url("../images/sebastian-herrmann-O2o1hzDA7iE-unsplash.jpg");*/
   /*background-attachment: fixed;*/
-  height:700px;
+  height:600px;
   background-size: cover;
+  background-color: SALMON;
 }
 .site-title, .site-desc{
   font-family: 'Righteous';
+  margin-left: 10%;
  color:black;
 }
 .site-title{
-  margin-top: 30%;
+  margin-top: 15%;
   margin-bottom: 6%;
+
   font-size: 50px;
   color:#4CBB17;
 }
@@ -76,6 +79,44 @@ font-family: 'Ubuntu';
 .flex-column{
   color:black;
 }
+/*section*/
+.section-2 .heading-1{
+  margin-top: 6%;
+  margin-bottom: 3%;
+  font-family: 'Righteous';
+  width: 80%;
+  color:#E32B47;
+}
+.section-2 h3{
+  padding-bottom: 30px;
+}
+.section-2 .para{
+  width: 80%;
+  font-family: 'Ubuntu';
+  color: whitesmoke;
+  margin-bottom: 2%;
+  font-size: 18px;
+}
+.section-2 .btn{
+  margin-bottom: 5%;
+  margin-top: 3%;
+  margin-left: 60px;
+  font-size: 20px;
+  width:22%;
+  border-radius: 50px;
+   color: white;
+  padding: 2% 5%;
+}
+.anchor{
+  color: green;
+}
+.anchor:hover{
+  text-decoration: none;
+  color: red;
+}
+.section-2 h4{
+  margin-left: 40px;
+}
 
 
 
@@ -86,8 +127,7 @@ font-family: 'Ubuntu';
 
 
 
-
-
+/*footer*/
 
 .main {
   max-height: 50px;
