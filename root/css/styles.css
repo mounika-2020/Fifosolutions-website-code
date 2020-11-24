@@ -40,18 +40,19 @@ font-family: 'Ubuntu';
   background-color:#4CBB17;/* #00E8E8;*/
 }
 /*carousel section*/
-#carouselExampleIndicators{
+/*#carouselExampleIndicators*/
+#carouselExampleCaptions{
 	position: relative;
-	height: 90vh;
+	height: 100vh;
 	width: 100%;
 }
-#carouselExampleIndicators .carousel-inner{
+#carouselExampleCaptions .carousel-inner{
 	position: relative;
 	height: 100%;
 	width: 100%;
 	background: #000;
 }
-#carouselExampleIndicators .carousel-inner:before{
+#carouselExampleCaptions .carousel-inner:before{
 	position: absolute;
 	content: '';
 	background: rgba(0, 0, 0, 0.45);
@@ -61,7 +62,7 @@ font-family: 'Ubuntu';
 	width: 100%;
 	z-index: 1;
 }
-#carouselExampleIndicators .carousel-inner .carousel-item{
+#carouselExampleCaptions .carousel-inner .carousel-item{
 	position: relative;
 	height: 100%;
 	width:100%;
@@ -70,20 +71,20 @@ font-family: 'Ubuntu';
 	background-position: center;
 	background-attachment: fixed;
 }
-#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+#carouselExampleCaptions .carousel-inner .carousel-item:nth-child(2){
 	background: url(../images/pexels-oleg-magni-2058130.jpg);/*'https://images.pexels.com/photos/256937/pexels-photo-256937.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');*/
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
-#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+#carouselExampleCaptions .carousel-inner .carousel-item:nth-child(3){
 	background: url(../images/pexels-marily-torres-776615.jpg);/*'https://images.pexels.com/photos/1064162/pexels-photo-1064162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');*/
 	background-size: 100% 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 
-#carouselExampleIndicators .carousel-inner .carousel-item .info{
+#carouselExampleCaptions .carousel-inner .carousel-item .info{
 	position: absolute;
 	top: 50%;
   right: 50px;
@@ -93,17 +94,17 @@ font-family: 'Ubuntu';
 	z-index: 1;
 	text-align: center;
 }
-#carouselExampleIndicators .carousel-inner .carousel-item h1{
+#carouselExampleCaptions .carousel-inner .carousel-item h1{
 	height: auto;
 	color: #fff;
 	width: 100%;
 	z-index: 1;
 	text-align: center;
 
-	font-size: 4.5em;
+	font-size: 3.5em;
 	font-weight: 750;
 }
-#carouselExampleIndicators .carousel-inner .carousel-item p{
+#carouselExampleCaptions .carousel-inner .carousel-item p{
 	height: auto;
 	color: #ccc;
 	width: 100%;
@@ -111,7 +112,7 @@ font-family: 'Ubuntu';
 	text-align: center;
 	font-size: 1.2em;
 	font-weight: 500;
-}
+}*/
 /*section1*/
 .icon{
   font-size: 140px;
