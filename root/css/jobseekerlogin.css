@@ -79,23 +79,17 @@ section{
   display: flex;
   font-family: sans-serif;
   font-style: italic;
-
   position:absolute;
-
   padding:150px 100px 100px;
   font-family: "georgian",sans-serif;
-
   width: 100%;
-
   background-position: center;
   background-size: 1900px;
   min-height: 100vh;
   display: flex;
   background-size: cover;
   background-position: center;
-
-  background:url("../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg") no-repeat center fixed;
-
+ background:url("../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg") no-repeat center fixed;
 }
 .login-form{
   height: 100vh;
@@ -192,14 +186,6 @@ padding: 30px;
 min-width: 100%;
 }
 }
-
-
-
-
-
-
-
-
 
 
 /*footer*/

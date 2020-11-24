@@ -236,12 +236,7 @@ section{
     color: white;
     text-decoration: none;
   }
-  /*span{
-    color:#777;
-    font-size: 12px;
-    bottom: 68px;
-    position: absolute;
-  }*/
+
   #login{
     left: 50px;
   }
@@ -261,15 +256,6 @@ padding: 30px;
 min-width: 100%;
 }
 }
-
-
-
-
-
-
-
-
-
 
 
 /*footer*/

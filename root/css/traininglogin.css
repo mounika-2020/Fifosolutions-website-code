@@ -79,25 +79,19 @@ section{
   display: flex;
   font-family: sans-serif;
   font-style: italic;
-
-  position:relative;
-
-  padding:150px 100px 100px;
+   position:relative;
+   padding:150px 100px 100px;
   font-family: "georgian",sans-serif;
-
   width: 100%;
-
-	background-position: center;
+  background-position: center;
 	background-size: 1900px;
 	min-height: 100vh;
 	display: flex;
-
 }
 .wrapper{
 	min-height: 100vh;
 	display: flex;
-
-	justify-content: center;
+  justify-content: center;
 	align-items: center;
 	margin-left: 140px;
 }
@@ -178,15 +172,6 @@ h2{
 	color: #f74040;
 	display: none;
 }
-
-
-
-
-
-
-
-
-
 
 
 /*footer*/

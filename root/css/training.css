@@ -72,11 +72,7 @@ font-family: 'Ubuntu';
   color:black;
 }
 /*section1*/
-/*.section-2 .container-fluid{
-  background-image: url('../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-}*/
+
 .section-2 .heading-1{
   margin-top: 6%;
   margin-bottom: 2%;
@@ -124,13 +120,6 @@ font-family: 'Ubuntu';
   box-shadow: 5px 7px 9px 5px rgba(255,255,255,0.5);
   cursor: pointer;
 }
-
-
-
-
-
-
-
 
 
 /*Footer*/
