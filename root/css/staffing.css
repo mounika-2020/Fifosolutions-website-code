@@ -5,51 +5,30 @@ body{
   font-family: 'Lato';
 }
 .navbar{
-  background-color: white;
+  background-color: black;
+  height: 90px;
 }
 .navbar-brand{
-/*  font-family: 'Pacifico';*/
 font-family: 'Ubuntu';
   font-size: 35px;
   color:lightcoral !important;
 }
 .nav-link{
-  font-size:16px;
-  margin:15px;
-  color:black !important;
+  font-size:20px;
+  margin-right: 40px;
+  float: right;
+  color:white !important;
   font-family: 'Roboto condense';
 }
 .nav-link:hover{
-  color:#00E8E8 !important;
-}
-
-.dropdown-item:hover{
-  color:#00E8E8 !important;
-
+  color:green !important ;/*#00E8E8 !important;*/
 }
 .active .nav-link{
-  color:blue !important;
+  color:Green !important;/*#00E8E8 !important;*/
 }
-.dropdown:hover>.dropdown-menu{
-  display:block;
-}
-
-
-.menu-right-btn{
-  padding: 13px 46px;
-  margin-right: 1%;
-  font-size: 20px;
-  background-color: transparent;
-  transition: all 300ms ease-in;
-}
-
-.menu-right-btn:hover{
-  color:white;
-  background-color:#4CBB17;/* #00E8E8;*/
-}
-.text{
-  text-decoration: none;
-  color:red;
+.emp{
+  color:gray;
+  font-size: 40px;
 }
 .site-content{
   /*background-image: url("../images/sebastian-herrmann-O2o1hzDA7iE-unsplash.jpg");*/

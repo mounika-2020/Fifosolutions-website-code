@@ -30,52 +30,123 @@ font-family: 'Ubuntu';
   color:gray;
   font-size: 40px;
 }
-.site-content{
-  background-image: url("../images/pexels-fauxels-3184418.jpg");
+/*form*/
+section{
+  background:url("../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg") no-repeat center fixed;
+    background-size: cover;
+    background-size: 1900px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  font-family: sans-serif;
+  font-style: italic;
+   position:relative;
+  /* padding:150px 100px 100px;*/
+  font-family: "georgian",sans-serif;
+  width: 100%;
+  background-position: center;
+	background-size: 1900px;
+	min-height: 100vh;
+	display: flex;
+}
+h1{
+  text-align: center;
+  margin-left: 25%;
+  margin-bottom: 4%;
+  color: Blue;
 
-  /*background-attachment:fixed;*/
-  height:700px;
-  background-size: cover;
 }
-.site-title, .site-desc{
-  font-family: 'Righteous';
- color:black;
+.wrapper{
+	min-height: 10vh;
+	display: flex;
+  justify-content: top;
+	align-items: center;
+	margin-left:25%;
+  padding-top: 10px;
 }
-.site-title{
-  margin-top: 20%;
-  margin-left: 100px;
-  margin-bottom: 1%;
-  font-size: 50px;
-  color:#4CBB17;
+h2{
+	font-size: 16px;
+	color: gray;
 }
-.site-desc{
-  font-size: 30px;
-  margin-left: 100px;
+.form{
+	width: 425px;
+	height: auto;
+  margin-top: 5%;
+	background: #fff;
+  padding: 35px 50px;
+	border-radius: 2px;
 }
 
-.flex-column{
-  color:black;
+.form .title{
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 24px;
 }
-/*services section*/
-#services h3{
-  color:#211b6b;
-  margin-top: 90px;
-  margin-bottom: 70px;
+
+.form .input_wrap{
+	margin-bottom: 20px;
+	width: 325px;
+	position: relative;
 }
-#services h4{
-  color:#cd6b35;
+
+.form .input_wrap:last-child{
+	margin-bottom: 0;
 }
-#services .btn{
-  background:#cd6b35;/*#211b6b;*/
-  border:none;
+
+.form .input_wrap label{
+	display: block;
+	margin-bottom: 5px;
 }
-#services .btn:hover{
-  background:#cd6b35;
+
+.form .input_wrap input{
+	padding: 15px;
+	width: 100%;
+	border: 1px solid transparent;
+	font-size: 16px;
+	border-radius: 3px;
 }
+
+.form .input_wrap .input{
+	background: #f5f4f4;
+	padding-right: 35px;
+}
+
+
+.form .input_wrap .input:focus{
+	border-color: #1dbf73;
+}
+
+.form .input_wrap .input_field{
+	position: relative;
+}
+
+.form .input_wrap .btn{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.form .input_wrap .btn.disabled{
+	background: #727272;
+}
+
+.form .input_wrap .btn.enabled{
+	background: #1dbf73;
+	cursor: pointer;
+}
+
+.form .input_wrap .error_msg{
+	font-size: 15px;
+	margin-bottom: 5px;
+	color: #f74040;
+	display: none;
+}
+
+
 
 /*footer*/
-
-
 .main {
   max-height: 50px;
   background-color: #292c2f;

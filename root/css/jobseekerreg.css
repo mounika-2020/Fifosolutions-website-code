@@ -5,43 +5,30 @@ body{
   font-family: 'Lato';
 }
 .navbar{
-  background-color: white;
+  background-color: black;
+  height: 90px;
 }
 .navbar-brand{
-/*  font-family: 'Pacifico';*/
 font-family: 'Ubuntu';
   font-size: 35px;
   color:lightcoral !important;
 }
 .nav-link{
-  font-size:16px;
-  margin:15px;
-  color:black !important;
+  font-size:20px;
+  margin-right: 40px;
+  float: right;
+  color:white !important;
   font-family: 'Roboto condense';
 }
 .nav-link:hover{
-  color:#00E8E8 !important;
+  color:green !important ;/*#00E8E8 !important;*/
 }
 .active .nav-link{
-  color:blue !important;
+  color:Green !important;/*#00E8E8 !important;*/
 }
-.menu-right-btn{
-  padding: 13px 46px;
-  margin-right: 1%;
-  font-size: 20px;
-  background-color: transparent;
-  transition: all 300ms ease-in;
-}
-.dropdown:hover>.dropdown-menu{
-  display:block;
-}
-.menu-right-btn:hover{
-  color:white;
-  background-color:#4CBB17;/* #00E8E8;*/
-}
-.text{
-  text-decoration: none;
-  color:red;
+.emp{
+  color:gray;
+  font-size: 40px;
 }
 .site-content{
   background-image: url("../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg");
@@ -68,7 +55,92 @@ font-family: 'Ubuntu';
 .flex-column{
   color:black;
 }
+/*form*/
+section{
+  background:url("../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg") no-repeat center fixed;
+    background-size: cover;
+ background-size: 1900px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  display: flex;
+  font-family: sans-serif;
+  font-style: italic;
+  position:relative;
+  padding:150px 100px 100px;
+  font-family: "georgian",sans-serif;
+  width: 100%;
+   background-position: center;
+  background-size: 1900px;
+  min-height: 100vh;
+  display: flex;
+}
 
+h1{
+  color: gray;
+  text-align: center;
+  font-style: italic;
+  padding: 20px;
+}
+.reg h2{
+  color: white;
+  text-align: center;
+  margin: 40px 10px;
+  font-style: italic;
+}
+.loc{
+  margin-top: 15px;
+}
+#resume{
+  background-color:#FFFFFF;
+}
+label{
+  color: #FFFFFF;/*white;*/
+ font-size: 20px;
+  font-style: italic;
+}
+.reg{
+  width:800px;
+  height:100%;
+  margin:auto;
+  background-color:gray;/* rgb(0,0,0,0.4);*/
+  padding: 10px;
+}
+#reg{
+  width:400px;
+  margin:auto;
+
+}
+
+.name{
+  width: 400px;
+  outline:0;
+  padding: 5px;
+  border:1px groove;
+}
+#ma{
+  color: white;
+ font-size: 20px;
+  font-style: italic;
+}
+#ch{
+  color: white;
+ font-size: 20px;
+  font-style: italic;
+}
+#sub{
+  width: 300px;
+  outline:0;
+  padding: 5px;
+  border:1px solid gray;//groove;
+  color: white;
+ font-size: 20px;
+  font-style: italic;
+  background-color: #487948;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
 /*footer*/
 
 .main {

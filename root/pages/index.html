@@ -11,22 +11,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
     <link rel="stylesheet" href="../css/styles.css">
   </head>
   <body>
    <header>
-     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-      <a href="index.html" class="navbar-brand ml-3">Fifo<span style="color:#0008E8;">solutions</span></a>
+     <nav class="navbar navbar-expand-lg navbar-light"><!-- fixed-top-->
+     <a href="index.html" class="navbar-brand ml-3">Fifo<span style="color:#0008E8;">solutions</span></a>
+     <!--<a href="index.html" class="navbar-brand ml-3"><img src="../images/fifo logo.png" class="logo" alt=""></a>-->
     <!--  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navigation">-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse"></div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent"><!--navbarMenu">-->
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
              <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+             <a href="aboutus.html" class="nav-link">About us</a>
           </li>
           <li class="nav-item dropdown">
             <a href="services.html" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -39,37 +45,61 @@
 
           </li>
           <li class="nav-item">
-             <a href="clients.html" class="nav-link">Clients</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="jobseeker.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Job Seeker
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="jobseekerreg.html">Register</a>
-              <a class="dropdown-item dropright" href="jobseekerlogin.html">Login</a>
-            </div>
-          </li>
-          <li class="nav-item">
              <a href="careers.html" class="nav-link">Carrers</a>
-          </li>
-          <li class="nav-item">
-             <a href="aboutus.html" class="nav-link">About us</a>
           </li>
           <li class="nav-item">
              <a href="contactus.html" class="nav-link">Contact us</a>
           </li>
         </ul>
-      <form class="form-inline my-2 my-lg-0" action="emplogin.html" method="post">
-          <button class="btn menu-right-btn border mx-4" type="submit">Employer login
-            </button>
-       </form>
+
+          <a href="#" target="_blank"><i class="fa fa-user emp"></i></a>
+         </form>
       </div>
      </nav>
    </header>
    <main>
+     <div class="container-fluid p-0">
+       <div class="site-content">
+         <div class="d-flex justify-content-start">
+           <div class="d-flex flex-column">
+             <h1 class="site-title">Experts at work</h1>
+         <p class="site-desc">We're one of the world’s largest and most influential <br>providers of
+                talent acquisition, workforce consulting, staffing<br> solutions, and executive search services.</p>
+                <div class="wrapper">
+                    <div class="search_box">
+                      <div class="search_field">
+                        <input type="text" class="input" placeholder="Search by job title or type">
+                          <i class="search fas fa-search"></i>
+                    </div>
+                        <div class="dropdown">
+                            <div class="default_option">All job types</div>
+                            <ul>
+                              <li>Check All</li>
+                              <li>Direct</li>
+                              <li>Temp to hire</li>
+                              <li>Contract</li>
+                            </ul>
+                        </div>
+                        <div class="dropdown1">
+                            <div class="default_option1">All locations</div>
+                            <ul>
+                              <li>Denver</li>
+                              <li>Washington</li>
+                              <li>Southern</li>
+                            </ul>
+                        </div>
 
-  	<div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators" data-interval="4000">
+                    </div>
+                </div>
+              <script src="../js/index.js" charset="utf-8"></script>
+           </div>
+
+         </div>
+
+       </div>
+    </div>
+
+  	<!--<div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators" data-interval="4000">
   		<ol class="carousel-indicators">
   			<li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
   			<li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
@@ -104,18 +134,19 @@
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
   	</script>
   	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
-  	</script>
+  	</script>-->
 
 
 
   <!--section1-->
-  <div class="section-1">
+<!--  <div class="section-1">
       <div class="container text-center">
         <h1 class="heading-1">How it works?</h1>
         <div class="row justify-content-center text-center">
           <div class="col-md-4">
              <div class="card">
                <i class="fa fa-graduation-cap icon" aria-hidden="true"></i>
+               <span></span>
                <div class="card-body">
                 <a class="seclink" href="jobseeker.html">
                  <h4 class="card-title text-dark">Job seeker</h4>
@@ -139,14 +170,66 @@
               <i class="fa fa-user-circle-o icon" aria-hidden="true"></i>
               <div class="card-body">
                 <a class="seclink" href="index.html">
-                <h4 class="card-title text-dark">Technical recruiter</h4>
+                <h4 class="card-title text-dark">Vendors</h4>
                 <p class="card-text">It was observed that there has been an increase in recruitment fraud involving scammers who post fraudulent jobs openings. </p></a>
               </div>
           </div>
           </div>
         </div>
       </div>
-  </div>
+  </div>-->
+
+  <section id="service">
+    <div class="title-text">
+      <!--<p>services</p>-->
+      <h1 class="heading-1">What we do</h1>
+    </div>
+    <div class="service-box">
+      <div class="single-service">
+             <img src="../images/pexels-oleg-magni-2058130.jpg" alt="">
+             <div class="overlay"></div>
+             <a href="jobseeker.html">
+             <div class="service-desc">
+               <h3>Job seeker</h3>
+               <hr>
+               <p>We are not just a technology company full of people, we’re a people company full of technology.It is people like you who make us what we are today.</p>
+             </div></a>
+      </div>
+     <div class="single-service">
+              <img src="../images/pexels-rebrand-cities-1367271.jpg" alt="">
+              <div class="overlay"></div>
+              <a href="jobseeker.html">
+              <div class="service-desc">
+                <h3>Bench sales</h3>
+                <hr>
+                <p>We are not just a technology company full of people, we’re a people company full of technology.It is people like you who make us what we are today</p>
+              </div></a>
+     </div>
+       <div class="single-service">
+               <img src="../images/pexels-christina-morillo-1181611.jpg" alt="">
+               <div class="overlay"></div>
+               <a href="jobseeker.html">
+               <div class="service-desc">
+                 <h3>Vendors</h3>
+                 <hr>
+                 <p>We are not just a technology company full of people, we’re a people company full of technology.It is people like you who make us what we are today</p>
+               </div></a>
+       </div>
+       <div class="single-service">
+             <img src="../images/pexels-christina-morillo-1181346.jpg" alt="">
+             <div class="overlay"></div>
+              <a href="jobseeker.html">
+             <div class="service-desc">
+
+               <h3>Training</h3>
+               <hr>
+               <p>We are not just a technology company full of people, we’re a people company full of technology.It is people like you who make us what we are today</p>
+             </div></a>
+       </div>
+    </div>
+  </section>
+
+
   <!--section2-->
     <div class="section-2">
       <div class="container-fluid">

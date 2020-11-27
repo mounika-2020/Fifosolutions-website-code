@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Righteous&family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 body{
   padding: 0%;
   margin:0%;
@@ -30,11 +31,11 @@ font-family: 'Ubuntu';
   color:gray;
   font-size: 40px;
 }
-.site-content{
-  background-image: url("../images/pexels-fauxels-3184418.jpg");
 
-  /*background-attachment:fixed;*/
-  height:700px;
+.site-content{
+  background-image: url("../images/pexels-christina-morillo-1181344.jpg");
+  background-attachment: fixed;
+  height:800px;
   background-size: cover;
 }
 .site-title, .site-desc{
@@ -42,40 +43,96 @@ font-family: 'Ubuntu';
  color:black;
 }
 .site-title{
-  margin-top: 20%;
-  margin-left: 100px;
-  margin-bottom: 1%;
+  margin-top: 30%;
+  margin-bottom: 6%;
   font-size: 50px;
   color:#4CBB17;
 }
 .site-desc{
-  font-size: 30px;
-  margin-left: 100px;
+  font-size: 14px;
+
+  font-size: 40px;
 }
 
 .flex-column{
   color:black;
 }
-/*services section*/
-#services h3{
-  color:#211b6b;
-  margin-top: 90px;
-  margin-bottom: 70px;
+/*section*/
+section{
+	background:url("../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg") no-repeat center fixed;
+  background-size: cover;
+	align-items: center;
+	justify-content: center;
+	min-height: 130vh;
+	display: flex;
+  position:relative;
+  display: flex;
+  padding:150px 100px 100px;
+  font-family: "georgian",sans-serif;
+  opacity: 1;
+  width: 100%;
 }
-#services h4{
-  color:#cd6b35;
+.wrapper{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 450px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  /*box-shadow: 4px 4px 2px rgba(254,236,164,1);*/
 }
-#services .btn{
-  background:#cd6b35;/*#211b6b;*/
-  border:none;
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  /*text-transform: uppercase;*/
+  letter-spacing: 2px;
+  color: #332902;
 }
-#services .btn:hover{
-  background:#cd6b35;
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+a:hover{
+  color:green;
+  text-decoration: none;
+}
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 190%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 90%;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
 }
 
 /*footer*/
-
-
 .main {
   max-height: 50px;
   background-color: #292c2f;
