@@ -62,7 +62,8 @@ section{
   background-size: cover;
 	align-items: center;
 	justify-content: center;
-	min-height: 130vh;
+  height: 100%;
+	min-height: 200vh;
 	display: flex;
   position:relative;
   display: flex;

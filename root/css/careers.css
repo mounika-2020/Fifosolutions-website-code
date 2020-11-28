@@ -28,11 +28,11 @@ font-family: 'Ubuntu';
 }
 .emp{
   color:gray;
-  font-size: 40px;
+  font-size: 40px;ss
 }
 .site-content{
- background-image: url("../images/pexels-marily-torres-776615.jpg");
-
+ background-image: url("../images/thomas-lefebvre-gp8BLyaTaA0-unsplash.jpg");        /*images/pexels-marily-torres-776615.jpg");*/
+background-attachment: fixed;
   height:600px;
 background-size: cover;
 /*background:url('/img/banners/career-banner.jpg')no-repeat;*/
@@ -61,9 +61,10 @@ background-size:cover;
 .section-2 .heading-1{
   margin-top: 6%;
   margin-bottom: 3%;
-  font-family: 'Righteous';
+  font-family: 'Ubuntu';
   width: 80%;
   color:#E32B47;
+  margin-left: 10%;
 }
 .section-2 h3{
   padding-bottom: 30px;

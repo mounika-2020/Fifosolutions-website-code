@@ -6,7 +6,7 @@ body{
 }
 .navbar{
   background-color: black;
-  height: 90px;
+/*  height: 90px;*/
 }
 .navbar-brand{
 font-family: 'Ubuntu';
@@ -16,7 +16,7 @@ font-family: 'Ubuntu';
 .nav-link{
   font-size:20px;
   margin-right: 40px;
-  float: right;
+  /*float: right;*/
   color:white !important;
   font-family: 'Roboto condense';
 }
