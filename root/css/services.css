@@ -2,7 +2,7 @@
 body{
   padding: 0%;
   margin:0%;
-  font-family: 'Lato';
+   font-family: "Montserrat";
 }
 .navbar{
   background-color: black;
@@ -14,9 +14,8 @@ font-family: 'Ubuntu';
   color:lightcoral !important;
 }
 .nav-link{
-  font-size:20px;
-  margin-right: 40px;
-  float: right;
+  font-size:18px;
+  margin-right: 28px;
   color:white !important;
   font-family: 'Roboto condense';
 }

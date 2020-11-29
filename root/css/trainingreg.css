@@ -2,11 +2,10 @@
 body{
   padding: 0%;
   margin:0%;
-  font-family: 'Lato';
+   font-family: "Montserrat";
 }
 .navbar{
   background-color: black;
-  height: 90px;
 }
 .navbar-brand{
 font-family: 'Ubuntu';
@@ -14,21 +13,23 @@ font-family: 'Ubuntu';
   color:lightcoral !important;
 }
 .nav-link{
-  font-size:20px;
-  margin-right: 40px;
-  float: right;
+  font-size:18px;
+  margin-right: 28px;
   color:white !important;
-  font-family: 'Roboto condense';
+
 }
 .nav-link:hover{
-  color:green !important ;/*#00E8E8 !important;*/
+  color:#89CFF0 !important ;
 }
 .active .nav-link{
-  color:Green !important;/*#00E8E8 !important;*/
+  color:#89CFF0 !important;
 }
 .emp{
   color:gray;
   font-size: 40px;
+}
+.emp:hover{
+  color:#89CFF0 !important;
 }
 
 /*section*/
@@ -42,13 +43,10 @@ font-family: 'Ubuntu';
 	display: flex;
 	font-family: sans-serif;
 	font-style: italic;
-
   position:relative;
-
-  padding:150px 100px 100px;
+   padding:150px 100px 100px;
   font-family: "georgian",sans-serif;
-
-  width: 100%;
+   width: 100%;
 }
 .container{
 	width: 80%;
@@ -115,7 +113,7 @@ font-family: 'Ubuntu';
 }
 .container .row100 .col #bt
 {
-	margin: 45px 0 30px 380px;
+	margin: 45px 0 30px 290px;
 	height:55px;
 	width: 205px;
 	font-size: 20px;
@@ -131,9 +129,6 @@ font-family: 'Ubuntu';
 .container .row100 .col #bt:hover{
 	background:#9ACD32;
 }
-/*#usernamef{
-	font-size: 140px;
-	}*/
 .container .row100 .inputBox input:focus ~ .line,
 .container .row100 .inputBox input:valid ~ .line
 {
@@ -172,16 +167,7 @@ input[type="submit"]
 	font-size: 18px;
 	border-radius: 2px;
 }
-/*#emailids{
-	margin-top: 1px;
-	width: 340px;
-	height:30px;
-	font-size: 16px;
-	color:#C62828;
-	text-align:bottom;
-	padding:50px 25px 1px 4px;
-	display:none;
-}*/
+
 
 .login_form .row100 .col .inputBox #fname_error,
 .login_form .row100 .col .inputBox #lname_error,
@@ -402,7 +388,24 @@ margin-top: 80px;
 }
 /*media queriws*/
 @media (max-width: 880px) {
-
+  .container .row100 .col #bt
+  {
+   margin: 45px 0 30px 40px;
+   height:55px;
+   width: 180px;
+   font-size: 20px;
+   color:white;
+   outline:none;
+   cursor: pointer;
+   font-weight: bold;
+   background:#999900;
+   border-radius: 30px;
+   border:1px solid #CCCC00;
+   transition: .5s;
+  }
+  .container .row100 .col #bt:hover{
+   background:#9ACD32;
+  }
   .footer-distributed{
     font: bold 14px sans-serif;
     background-color: #292c2f;
@@ -418,6 +421,10 @@ margin-top: 80px;
     width: 100%;
     margin-bottom: 140px;
     text-align: center;
+  }
+  .footer-distributed .footer-left{
+    margin-left:18px;
+    margin-top: 20px;
   }
     .footer-distributed .footer-center{
       margin-right: 10px;

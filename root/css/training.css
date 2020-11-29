@@ -2,53 +2,51 @@
 body{
   padding: 0%;
   margin:0%;
-  font-family: 'Lato';
+ font-family: "Montserrat";
 }
 .navbar{
   background-color: black;
-  height: 90px;
 }
 .navbar-brand{
 font-family: 'Ubuntu';
-  font-size: 35px;
+  font-size: 350px;
   color:lightcoral !important;
 }
 .nav-link{
-  font-size:20px;
-  margin-right: 40px;
-  float: right;
+  font-size:18px;
+  margin-right: 28px;
   color:white !important;
-  font-family: 'Roboto condense';
 }
 .nav-link:hover{
-  color:green !important ;/*#00E8E8 !important;*/
+  color:#89CFF0 !important ;
 }
 .active .nav-link{
-  color:Green !important;/*#00E8E8 !important;*/
+  color:#89CFF0 !important;
 }
 .emp{
   color:gray;
   font-size: 40px;
 }
+.emp:hover{
+  color:#89CFF0 !important;
+}
+/*main*/
 .site-content{
   background-image: url("../images/pexels-oleg-magni-2058130.jpg");
-
- background-attachment: fixed;
-  height:500px;
+  background-attachment: fixed;
+  height:560px;
   background-size: cover;
 }
 .flex-column{
   margin-left: 40px;
 }
 .site-title, .site-desc{
-  font-family: 'Righteous';
  color:black;
 }
 .site-title{
-  margin-top: 14%;
+  margin-top: 100%;
   margin-left: 2px;
-
-  font-size: 50px;
+  font-size: 60px;
   color:white;/*#4CBB17;*/
 }
 .site-desc{
@@ -63,7 +61,7 @@ font-family: 'Ubuntu';
 .section-2 .heading-1{
   margin-top: 6%;
   margin-bottom: 2%;
-  font-family: 'Righteous';
+  /*font-family: 'Righteous';*/
   width: 80%;
   color: whitesmoke;
 }
@@ -89,7 +87,7 @@ font-family: 'Ubuntu';
 }
 .s2{
   background-color: #f8f9fa;
-  height: 500px;
+  height: 100%;
 }
 .icon{
   font-size: 40px;
@@ -110,14 +108,6 @@ font-family: 'Ubuntu';
 
 
 /*Footer*/
-.main {
-  max-height: 50px;
-  background-color: #292c2f;
-  color: white;
-  font-size: 38pt;
-  text-align: center;
-  line-height: 100px;
-}
 footer{
   position: 0;
   bottom: 0;
@@ -310,6 +300,10 @@ margin-top: 80px;
     width: 100%;
     margin-bottom: 140px;
     text-align: center;
+  }
+  .footer-distributed .footer-left{
+    margin-left:18px;
+    margin-top: 20px;
   }
     .footer-distributed .footer-center{
       margin-right: 10px;

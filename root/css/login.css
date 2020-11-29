@@ -2,11 +2,10 @@
 body{
   padding: 0%;
   margin:0%;
-  font-family: 'Lato';
+   font-family: "Montserrat";
 }
 .navbar{
   background-color: black;
-  height: 90px;
 }
 .navbar-brand{
 font-family: 'Ubuntu';
@@ -14,17 +13,16 @@ font-family: 'Ubuntu';
   color:lightcoral !important;
 }
 .nav-link{
-  font-size:20px;
-  margin-right: 40px;
-  float: right;
+  font-size:18px;
+  margin-right: 28px;
   color:white !important;
   font-family: 'Roboto condense';
 }
 .nav-link:hover{
-  color:green !important ;/*#00E8E8 !important;*/
+  color:#89CFF0 !important ;
 }
 .active .nav-link{
-  color:Green !important;/*#00E8E8 !important;*/
+  color:#89CFF0 !important;
 }
 .emp{
   color:gray;
@@ -33,22 +31,17 @@ font-family: 'Ubuntu';
 /*form*/
 section{
   background:url("../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg") no-repeat center fixed;
-    background-size: cover;
-    background-size: 1900px;
+  background-size: cover;
+  background-size: 1900px;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 140vh;
   display: flex;
-  font-family: sans-serif;
   font-style: italic;
    position:relative;
-  /* padding:150px 100px 100px;*/
   font-family: "georgian",sans-serif;
   width: 100%;
   background-position: center;
-	background-size: 1900px;
-	min-height: 100vh;
-	display: flex;
 }
 h1{
   text-align: center;
@@ -143,18 +136,33 @@ h2{
 	color: #f74040;
 	display: none;
 }
-
+@media (max-width: 880px){
+  .wrapper{
+  	min-height: 10vh;
+  	display: flex;
+    width:15%;
+    justify-content: top;
+  	align-items: left;
+    padding-top: 10px;
+  }
+  .form{
+  	width: 300px;
+  	height: auto;
+    margin-top: 5%;
+  	background: #fff;
+    padding: 35px 50px;
+  	border-radius: 2px;
+  }
+  .form .input_wrap{
+  	margin-bottom: 20px;
+  	width: 225px;
+  	position: relative;
+    margin-left: 2px;
+  }
+}
 
 
 /*footer*/
-.main {
-  max-height: 50px;
-  background-color: #292c2f;
-  color: white;
-  font-size: 38pt;
-  text-align: center;
-  line-height: 100px;
-}
 footer{
   position: 0;
   bottom: 0;
@@ -308,19 +316,15 @@ margin-top: 80px;
   width: 35px;
   height: 35px;
   cursor: pointer;
-  /*background-color:  #33383b;*/
   border-radius: 2px;
-
   font-size: 20px;
   color: #ffffff;
   text-align: center;
   line-height: 35px;
-
   margin-right: 3px;
   margin-bottom: 5px;
 }
 .address{
-
   line-height: 20px;
   color:  #92999f;
   font-size: 19px;
@@ -331,8 +335,7 @@ margin-top: 80px;
 }
 /*media queriws*/
 @media (max-width: 880px) {
-
-  .footer-distributed{
+ .footer-distributed{
     font: bold 14px sans-serif;
     background-color: #292c2f;
     height: 100%;
@@ -347,6 +350,10 @@ margin-top: 80px;
     width: 100%;
     margin-bottom: 140px;
     text-align: center;
+  }
+  .footer-distributed .footer-left{
+    margin-left:18px;
+    margin-top: 20px;
   }
     .footer-distributed .footer-center{
       margin-right: 10px;

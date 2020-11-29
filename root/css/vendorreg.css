@@ -2,11 +2,10 @@
 body{
   padding: 0%;
   margin:0%;
-  font-family: 'Lato';
+   font-family: "Montserrat";
 }
 .navbar{
   background-color: black;
-  height: 90px;
 }
 .navbar-brand{
 font-family: 'Ubuntu';
@@ -14,23 +13,24 @@ font-family: 'Ubuntu';
   color:lightcoral !important;
 }
 .nav-link{
-  font-size:20px;
-  margin-right: 40px;
-  float: right;
+  font-size:18px;
+  margin-right: 28px;
   color:white !important;
-  font-family: 'Roboto condense';
+  
 }
 .nav-link:hover{
-  color:green !important ;/*#00E8E8 !important;*/
+  color:green !important ;
 }
 .active .nav-link{
-  color:Green !important;/*#00E8E8 !important;*/
+  color:Green !important;
 }
 .emp{
   color:gray;
   font-size: 40px;
 }
-
+.emp:hover{
+  color:#89CFF0 !important;
+}
 .site-content{
   background-image: url("../images/pexels-christina-morillo-1181344.jpg");
   background-attachment: fixed;
@@ -344,6 +344,10 @@ margin-top: 80px;
     width: 100%;
     margin-bottom: 140px;
     text-align: center;
+  }
+  .footer-distributed .footer-left{
+    margin-left:18px;
+    margin-top: 20px;
   }
     .footer-distributed .footer-center{
       margin-right: 10px;

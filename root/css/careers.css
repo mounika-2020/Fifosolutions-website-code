@@ -2,11 +2,10 @@
 body{
   padding: 0%;
   margin:0%;
-  font-family: 'Lato';
+ font-family: "Montserrat";
 }
 .navbar{
   background-color: black;
-  height: 90px;
 }
 .navbar-brand{
 font-family: 'Ubuntu';
@@ -14,33 +13,33 @@ font-family: 'Ubuntu';
   color:lightcoral !important;
 }
 .nav-link{
-  font-size:20px;
-  margin-right: 40px;
-  float: right;
+  font-size:18px;
+  margin-right: 28px;
   color:white !important;
-  font-family: 'Roboto condense';
+
 }
 .nav-link:hover{
-  color:green !important ;/*#00E8E8 !important;*/
+  color:#89CFF0 !important ;
 }
 .active .nav-link{
-  color:Green !important;/*#00E8E8 !important;*/
+  color:#89CFF0 !important;
 }
 .emp{
   color:gray;
-  font-size: 40px;ss
+  font-size: 40px;
 }
+.emp:hover{
+  color:#89CFF0 !important;
+}
+/*section1*/
 .site-content{
- background-image: url("../images/thomas-lefebvre-gp8BLyaTaA0-unsplash.jpg");        /*images/pexels-marily-torres-776615.jpg");*/
-background-attachment: fixed;
+ background-image: url("../images/thomas-lefebvre-gp8BLyaTaA0-unsplash.jpg");
+ background-attachment: fixed;
   height:600px;
-background-size: cover;
-/*background:url('/img/banners/career-banner.jpg')no-repeat;*/
-background-size:cover;
-	background-position:center;
+  background-size: cover;
+ 	background-position:center;
 }
 .site-title, .site-desc{
-  font-family: 'Righteous';
  color:black;
 }
 .site-title{
@@ -57,11 +56,11 @@ background-size:cover;
 .flex-column{
   color:black;
 }
-/*section1*/
+/*section2*/
 .section-2 .heading-1{
   margin-top: 6%;
   margin-bottom: 3%;
-  font-family: 'Ubuntu';
+
   width: 80%;
   color:#E32B47;
   margin-left: 10%;
@@ -98,14 +97,6 @@ background-size:cover;
 }
 
 /*footer*/
-.main {
-  max-height: 50px;
-  background-color: #292c2f;
-  color: white;
-  font-size: 38pt;
-  text-align: center;
-  line-height: 100px;
-}
 footer{
   position: 0;
   bottom: 0;
@@ -282,7 +273,25 @@ margin-top: 80px;
 }
 /*media queriws*/
 @media (max-width: 880px) {
-
+  .section-2 .heading-1{
+    margin-top: 6%;
+    margin-bottom: 3%;
+    font-family: 'Ubuntu';
+    width: 100%;
+    color:#E32B47;
+    margin-left: 3%;
+    font-size: 32px;
+  }
+  .section-2 .btn{
+    margin-bottom: 5%;
+    margin-top: 3%;
+    margin-left: 60px;
+    font-size: 20px;
+    width:42%;
+    border-radius: 50px;
+     color: white;
+    padding: 2% 5%;
+  }
   .footer-distributed{
     font: bold 14px sans-serif;
     background-color: #292c2f;
@@ -298,6 +307,10 @@ margin-top: 80px;
     width: 100%;
     margin-bottom: 140px;
     text-align: center;
+  }
+  .footer-distributed .footer-left{
+    margin-left:18px;
+    margin-top: 20px;
   }
     .footer-distributed .footer-center{
       margin-right: 10px;

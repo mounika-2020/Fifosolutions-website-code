@@ -2,68 +2,57 @@
 body{
   padding: 0%;
   margin:0%;
-  font-family: 'Lato';
+   font-family: "Montserrat";
 }
 .navbar{
-  background-color: white;
+  background-color: black;
 }
 .navbar-brand{
-/*  font-family: 'Pacifico';*/
 font-family: 'Ubuntu';
   font-size: 35px;
   color:lightcoral !important;
 }
 .nav-link{
-  font-size:16px;
-  margin:15px;
-  color:black !important;
+  font-size:18px;
+  margin-right: 28px;
+  color:white !important;
   font-family: 'Roboto condense';
 }
 .nav-link:hover{
-  color:#00E8E8 !important;
+  color:#89CFF0 !important ;
 }
 .active .nav-link{
-  color:blue !important;
+  color:#89CFF0 !important;
 }
-.menu-right-btn{
-  padding: 13px 46px;
-  margin-right: 1%;
-  font-size: 20px;
-  background-color: transparent;
-  transition: all 300ms ease-in;
+.emp{
+  color:gray;
+  font-size: 40px;
+}
+.emp:hover{
+  color:#89CFF0 !important;
 }
 .dropdown:hover>.dropdown-menu{
   display:block;
 }
-.menu-right-btn:hover{
-  color:white;
-  background-color:#4CBB17;/* #00E8E8;*/
-}
-.text{
-  text-decoration: none;
-  color:red;
-}
 .site-content{
-  background-image: url("../images/pexels-oleg-magni-2058130.jpg");
-  background-attachment: fixed;
-  height:800px;
+ background-image: url("../images/thomas-lefebvre-gp8BLyaTaA0-unsplash.jpg");
+ background-attachment: fixed;
+  height:600px;
   background-size: cover;
+ 	background-position:center;
 }
 .site-title, .site-desc{
   font-family: 'Righteous';
  color:black;
 }
 .site-title{
-  margin-top: 90%;
-
+  margin-top: 50%;
   margin-bottom: 6%;
-  text-align: center;
   font-size: 50px;
   color:#4CBB17;
 }
 .site-desc{
   font-size: 14px;
-
   font-size: 40px;
 }
 
@@ -272,6 +261,10 @@ margin-top: 80px;
     width: 100%;
     margin-bottom: 140px;
     text-align: center;
+  }
+  .footer-distributed .footer-left{
+    margin-left:18px;
+    margin-top: 20px;
   }
     .footer-distributed .footer-center{
       margin-right: 10px;

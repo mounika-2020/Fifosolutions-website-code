@@ -2,11 +2,10 @@
 body{
   padding: 0%;
   margin:0%;
-  font-family: 'Lato';
+ font-family: "Montserrat";
 }
 .navbar{
   background-color: black;
-  height: 90px;
 }
 .navbar-brand{
 font-family: 'Ubuntu';
@@ -14,55 +13,54 @@ font-family: 'Ubuntu';
   color:lightcoral !important;
 }
 .nav-link{
-  font-size:20px;
-  margin-right: 40px;
-  float: right;
+  font-size:18px;
+  margin-right: 28px;
   color:white !important;
-  font-family: 'Roboto condense';
 }
 .nav-link:hover{
-  color:green !important ;/*#00E8E8 !important;*/
+  color:#89CFF0 !important ;
 }
 .active .nav-link{
-  color:Green !important;/*#00E8E8 !important;*/
+  color:#89CFF0 !important;
 }
 .emp{
   color:gray;
   font-size: 40px;
 }
+.emp:hover{
+  color:#89CFF0 !important;
+}
+/*section1*/
 .site-content{
-  background-image: url("../images/pexels-rebrand-cities-1367271.jpg");
+  background-image: url("../images/sebastian-herrmann-O2o1hzDA7iE-unsplash (1).jpg");
   background-attachment: fixed;
   height:600px;
   background-size: cover;
-  background-color: SALMON;
 }
 .site-title, .site-desc{
-  font-family: 'Righteous';
+
   margin-left: 10%;
  color:black;
 }
 .site-title{
   margin-top: 15%;
   margin-bottom: 6%;
-
   font-size: 50px;
   color:#4CBB17;
 }
 .site-desc{
   font-size: 14px;
-
   font-size: 40px;
 }
 
 .flex-column{
   color:black;
 }
-/*section*/
+/*section2*/
 .section-2 .heading-1{
   margin-top: 6%;
   margin-bottom: 3%;
-  font-family: 'Righteous';
+  /*font-family: 'Righteous';*/
   width: 80%;
   color:#E32B47;
 }
@@ -98,15 +96,6 @@ font-family: 'Ubuntu';
 }
 
 /*footer*/
-
-.main {
-  max-height: 50px;
-  background-color: #292c2f;
-  color: white;
-  font-size: 38pt;
-  text-align: center;
-  line-height: 100px;
-}
 footer{
   position: 0;
   bottom: 0;
@@ -120,7 +109,7 @@ footer{
   font: bold 16px sans-serif;
   height:400px;
   padding: 55px 50px;
-margin-top: 80px;
+  margin-top: 80px;
 }
 
 .footer-distributed .footer-left,
@@ -227,7 +216,7 @@ margin-top: 80px;
   color:  #92999f;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 20px;
+  margin-top: 10px;
 
 }
 
@@ -299,6 +288,10 @@ margin-top: 80px;
     width: 100%;
     margin-bottom: 140px;
     text-align: center;
+  }
+  .footer-distributed .footer-left{
+    margin-left:18px;
+    margin-top: 20px;
   }
     .footer-distributed .footer-center{
       margin-right: 10px;

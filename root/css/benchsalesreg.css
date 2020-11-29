@@ -3,11 +3,10 @@
 body{
   padding: 0%;
   margin:0%;
-  font-family: 'Lato';
+   font-family: "Montserrat";
 }
 .navbar{
   background-color: black;
-  height: 90px;
 }
 .navbar-brand{
 font-family: 'Ubuntu';
@@ -15,48 +14,25 @@ font-family: 'Ubuntu';
   color:lightcoral !important;
 }
 .nav-link{
-  font-size:20px;
-  margin-right: 40px;
-  float: right;
+  font-size:18px;
+  margin-right: 28px;
   color:white !important;
   font-family: 'Roboto condense';
 }
 .nav-link:hover{
-  color:green !important ;/*#00E8E8 !important;*/
+  color:#89CFF0 !important ;
 }
 .active .nav-link{
-  color:Green !important;/*#00E8E8 !important;*/
+  color:#89CFF0 !important;
 }
 .emp{
   color:gray;
   font-size: 40px;
 }
-
-.site-content{
-  background-image: url("../images/pexels-christina-morillo-1181344.jpg");
-  background-attachment: fixed;
-  height:800px;
-  background-size: cover;
-}
-.site-title, .site-desc{
-  font-family: 'Righteous';
- color:black;
-}
-.site-title{
-  margin-top: 30%;
-  margin-bottom: 6%;
-  font-size: 50px;
-  color:#4CBB17;
-}
-.site-desc{
-  font-size: 14px;
-
-  font-size: 40px;
+.emp:hover{
+  color:#89CFF0 !important;
 }
 
-.flex-column{
-  color:black;
-}
 /*section*/
 section{
 	background:url("../images/jeshoots-com-pUAM5hPaCRI-unsplash.jpg") no-repeat center fixed;
@@ -74,7 +50,7 @@ section{
 }
 .wrapper{
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   max-width: 450px;
@@ -133,14 +109,7 @@ a:hover{
 }
 
 /*footer*/
-.main {
-  max-height: 50px;
-  background-color: #292c2f;
-  color: white;
-  font-size: 38pt;
-  text-align: center;
-  line-height: 100px;
-}
+
 footer{
   position: 0;
   bottom: 0;
@@ -333,6 +302,10 @@ margin-top: 80px;
     width: 100%;
     margin-bottom: 140px;
     text-align: center;
+  }
+  .footer-distributed .footer-left{
+    margin-left:18px;
+    margin-top: 20px;
   }
     .footer-distributed .footer-center{
       margin-right: 10px;
