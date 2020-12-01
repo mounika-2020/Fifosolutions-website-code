@@ -63,17 +63,7 @@ function validation()
                  document.getElementById('emailids').innerHTML="Please enter valid email .m";
                  return false;
            }
-
-          /* if(password.length < 7){
-             document.getElementById('passerr').innerHTML="Please enter valid password";
-             return false;
-           }
-           if(cpassword.length < 7||cpassword!==password){
-             document.getElementById('passcon').innerHTML="Please enter above password";
-             return false;
-           }*/
-
-           if(mobileNumber == ""){
+         if(mobileNumber == ""){
                  document.getElementById('mobiles').innerHTML="please fill the mobile number field";
                  return false;
            }
@@ -87,22 +77,7 @@ function validation()
                  document.getElementById('mobiles').innerHTML="mobile number must be only 10 digits";
                  return false;
            }
-          /* if(techno == ""){
-                 document.getElementById('tech').innerHTML="please enter technology";
-                 return false;
-           }
-           if((techno.length <= 2) || (techno.length>20)){
-                 document.getElementById('tech').innerHTML="technology length must be in between 2 to 20";
-                 return false;
-           }
-           if(!isNaN(techno)){
-                 document.getElementById('tech').innerHTML="only characters are allowed";
-                 return false;
-           }*/
-
-
-
-                 if(location == ""){
+           if(location == ""){
                         document.getElementById('locationerr').innerHTML="please enter location ";
                         return false;
                   }

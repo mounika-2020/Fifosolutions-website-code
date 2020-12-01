@@ -31,7 +31,15 @@ font-family: 'Ubuntu';
 .emp:hover{
   color:#89CFF0 !important;
 }
-/*section*/
+/*section1*/
+.site-content{
+  height:400px;
+  background-size: cover;
+  background-image: url("../images/william-iven-SpVHcbuKi6E-unsplash.jpg");
+  /*background-attachment: fixed;*/
+}
+
+/*section2*/
 .contact{
   position: relative;
   min-height: 100vh;
@@ -96,7 +104,7 @@ font-family: 'Ubuntu';
 
 .container .contactinfo .box .text h3{
   font-weight: 500;
-  color: #00bcd4;
+  color:black;
 }
 .container .contactinfo .box .text p{
   color: black;
